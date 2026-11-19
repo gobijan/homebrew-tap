@@ -6,25 +6,25 @@ cask "usetix" do
     end
   end
 
-  version "0.12.0"
+  version "0.13.0"
 
   on_macos do
     on_arm do
-      sha256 "a9b40d7d5cb6a8e2e221be19957ccf56853109ad29e39c170a983125b1d0a301"
+      sha256 "4a573585e337a68a07823069bda9e9488c0878df5274e5debed8bca3ca9023cd"
       url "https://github.com/gobijan/usetix-cli/releases/download/v#{version}/usetix_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "af0d227859f15d9ba4a00f891a41eda26fecb618f957214375f74ff7e891cf0e"
+      sha256 "99dc8e64b45f77e6a11e050ce873d962988e43cf5d1a4fe827a8c3956523fbc0"
       url "https://github.com/gobijan/usetix-cli/releases/download/v#{version}/usetix_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "230fefe69f2ed7db592d6c48df28d22acbcb7034a1a89f6481548aee06c7de19"
+      sha256 "6dea14de7c2e1d501b36f70c02652230ca1be0a90a9bc8a7bdf3fc1a6ba13843"
       url "https://github.com/gobijan/usetix-cli/releases/download/v#{version}/usetix_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0f2bb064609a510ce650f9942b9dd0046c1a00a9f332043c56cf9a8c8f887a7a"
+      sha256 "0b787798c0f86ea9a8b1fae90df68c0f656d66fc7bb26760774dd16e8691c18c"
       url "https://github.com/gobijan/usetix-cli/releases/download/v#{version}/usetix_#{version}_linux_amd64.tar.gz"
     end
   end
